@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #1d1d1f;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-bottom: 1px solid #eee;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1d1d1f;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+/* TITULOS */
+h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #6e6e73;
+    margin-bottom: 30px;
+}
+
+/* GRID */
+.grid {
+    display: flex;
+    gap: 20px;
+}
+
+.grid .input-group {
+    flex: 1;
+}
+
+/* INPUTS */
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* BOTÃO */
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    background-color: #0071e3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* DIVISÃO */
+hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+    .grid {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 15px 20px;
+    }
+}

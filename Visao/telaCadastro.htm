@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro - Creches</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cadastro.css">
+    
+</head>
+
+<body>
+
+<nav>
+    <div><strong>Prefeitura</strong></div>
+    <div>
+        <a href="index.html">Início</a>
+        <a href="#">Consulta</a>
+    </div>
+</nav>
+
+<div class="container">
+
+    <h1>Cadastro para Vaga em Creche</h1>
+    <p class="subtitle">Preencha os dados abaixo para entrar na fila de prioridade</p>
+
+    <form>
+
+        <div class="grid">
+            <div class="input-group">
+                <label>Nome da Responsável</label>
+                <input type="text">
+            </div>
+
+            <div class="input-group">
+                <label>CPF</label>
+                <input type="text">
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="input-group">
+                <label>Telefone</label>
+                <input type="text">
+            </div>
+
+            <div class="input-group">
+                <label>Renda Familiar</label>
+                <input type="number">
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="input-group">
+                <label>Quantidade de Filhos</label>
+                <input type="number">
+            </div>
+
+            <div class="input-group">
+                <label>Mãe Solteira</label>
+                <select>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label>Endereço</label>
+            <input type="text">
+        </div>
+
+        <hr>
+
+        <h2>Dados da Criança</h2>
+
+        <div class="grid">
+            <div class="input-group">
+                <label>Nome da Criança</label>
+                <input type="text">
+            </div>
+
+            <div class="input-group">
+                <label>Idade</label>
+                <input type="number">
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label>Necessidades Especiais</label>
+            <select>
+                <option>Não</option>
+                <option>Sim</option>
+            </select>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
