@@ -1,0 +1,9 @@
+src/main/java/matriculeja/model/HistoricoStatus.java
+src/main/java/matriculeja/model/Prioridade.java
+src/main/java/matriculeja/model/FilaDeEspera.java
+src/main/java/matriculeja/model/Crianca.java
+src/main/java/matriculeja/model/Solicitacao.java
+src/main/java/matriculeja/model/Responsavel.java
+src/main/java/matriculeja/model/StatusSolicitacao.java
+src/main/java/matriculeja/ui/MenuPrincipal.java
+src/main/java/matriculeja/service/ServicoSolicitacoes.java

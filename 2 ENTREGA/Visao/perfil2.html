@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Perfil 2 - Servidores públicos</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/perfis.css">
+    </head>
+
+    <script src="javascript/perfis.js"></script>
+
+    <body>
+
+        <nav>
+            <div><strong>Prefeitura</strong></div>
+            <div>
+                <a href="perfis.html">Voltar</a>
+            </div>
+        </nav>
+
+        <div class="section">
+            <h1>Perfil 2 - Servidores públicos</h1>
+        </div>
+
+        <div class="cards">
+
+            <div class="card" onclick="abrirModal('marcos')">
+                <h3>Marcos</h3>
+                <p>Atendente sobrecarregado.</p>
+            </div>
+
+            <div class="card" onclick="abrirModal('fernanda')">
+                <h3>Fernanda</h3>
+                <p>Organizada, mas limitada.</p>
+            </div>
+
+            <div class="card" onclick="abrirModal('joao')">
+                <h3>Joao</h3>
+                <p>Dificuldades para entender os processos e acompanhar corretamente.</p>
+            </div>
+
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="fechar" onclick="fecharModal()">&times;</span>
+
+                <div class="modal-layout">
+                    
+                    <!-- IMAGEM -->
+                    <div class="modal-img">
+                        <img id="imgPersona" src="" alt="">
+                    </div>
+
+                    <!-- TEXTO -->
+                    <div class="modal-texto">
+                        <h2 id="nomePersona"></h2>
+                        <p id="descricaoPersona"></p>
+
+                        <h4>Contexto:</h4>
+                        <p id="contextoPersona"></p>
+
+                        <h4>Objetivo:</h4>
+                        <p id="objetivoPersona"></p>
+
+                        <h4>Problema:</h4>
+                        <p id="problemaPersona"></p>
+
+                        <h4>Restrições:</h4>
+                        <p id="restricoesPersona"></p>
+
+                        <h4>Acessibilidade:</h4>
+                        <p id="acessibilidadePersona"></p>
+
+                        <h4>Medo:</h4>
+                        <p id="medoPersona"></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
