@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Perfil 1 - Responsáveis</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/perfis.css">
+    </head>
+
+    <script src="javascript/perfis.js"></script>
+
+    <body>
+
+        <nav>
+            <div><strong>Prefeitura</strong></div>
+            <div>
+                <a href="perfis.html">Voltar</a>
+            </div>
+        </nav>
+
+        <div class="section">
+            <h1>Perfil 1 - Responsáveis</h1>
+        </div>
+
+        <div class="cards">
+
+            <div class="card" onclick="abrirModal('maria')">
+                <h3>Maria</h3>
+                <p>Mãe solteira que precisa de vaga para trabalhar.</p>
+            </div>
+
+            <div class="card" onclick="abrirModal('juliana')">
+                <h3>Juliana</h3>
+                <p>Dificuldade com tecnologia e cadastro.</p>
+            </div>
+
+            <div class="card" onclick="abrirModal('ana')">
+                <h3>Ana</h3>
+                <p>Problemas com documentação e processo híbrido.</p>
+            </div>
+
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="fechar" onclick="fecharModal()">&times;</span>
+
+                <div class="modal-layout">
+                    
+                    <!-- IMAGEM -->
+                    <div class="modal-img">
+                        <img id="imgPersona" src="" alt="">
+                    </div>
+
+                    <!-- TEXTO -->
+                    <div class="modal-texto">
+                        <h2 id="nomePersona"></h2>
+                        <p id="descricaoPersona"></p>
+
+                        <h4>Objetivo:</h4>
+                        <p id="objetivoPersona"></p>
+
+                        <h4>Problema:</h4>
+                        <p id="problemaPersona"></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
