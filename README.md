@@ -1,8 +1,8 @@
-# VagaFácil
+# MatriculeJá
 
 ## Sobre o projeto
 
-O VagaFácil é um sistema digital pensado para melhorar o processo de solicitação de vagas em creches públicas municipais. A ideia surgiu a partir de um problema real: muitas famílias enfrentam dificuldades para conseguir uma vaga, sem saber sua posição na fila, sem retorno claro da prefeitura e sem entender exatamente como funciona o processo.
+O MatriculeJá é um sistema digital pensado para melhorar o processo de solicitação de vagas em creches públicas municipais. A ideia surgiu a partir de um problema real: muitas famílias enfrentam dificuldades para conseguir uma vaga, sem saber sua posição na fila, sem retorno claro da prefeitura e sem entender exatamente como funciona o processo.
 
 Além disso, a falta de transparência acaba gerando sensação de injustiça e favorecimento. O sistema busca resolver isso centralizando as informações e deixando todo o processo mais claro, tanto para a população quanto para os próprios servidores.
 
@@ -37,7 +37,7 @@ O projeto está sendo desenvolvido inicialmente com:
 
 ## Impacto
 
-A proposta do VagaFácil é reduzir desigualdades no acesso às vagas, melhorar a transparência do processo e ajudar a prefeitura a tomar decisões mais organizadas e justas.
+A proposta do MatriculeJá é reduzir desigualdades no acesso às vagas, melhorar a transparência do processo e ajudar a prefeitura a tomar decisões mais organizadas e justas.
 
 O projeto também se relaciona com os seguintes Objetivos de Desenvolvimento Sustentável:
 
@@ -51,6 +51,6 @@ Projeto em desenvolvimento, atualmente na fase de protótipo.
 
 ## Autor
 
-Davi Bomfim Climaco
+Davi Bomfim Climaco - 24038233-2
 Danilo Mori Schuler
 Pedro Luiz Mendes
