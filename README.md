@@ -33,6 +33,7 @@ O projeto está sendo desenvolvido inicialmente com:
 
 - HTML
 - CSS
+- JavaScript
 - Java(SpringBoot)
 
 ## Impacto
@@ -49,7 +50,7 @@ O projeto também se relaciona com os seguintes Objetivos de Desenvolvimento Sus
 
 Projeto em desenvolvimento, atualmente na fase de protótipo.
 
-## Autor
+## Autores
 
 - Davi Bomfim Climaco - 24038233-2
 - Danilo Mori Schuler - 24391649-2
