@@ -1,10 +1,10 @@
-# VagaFácil
+# MatriculeJá
 
 ## Sobre o projeto
 
-O VagaFácil é um sistema digital desenvolvido para melhorar o processo de solicitação e gestão de vagas em creches públicas municipais. O projeto surgiu a partir da identificação de um problema recorrente: a dificuldade das famílias em acompanhar o processo de solicitação de vagas, sem transparência sobre posição na fila, critérios de prioridade e andamento das solicitações.
+O MatriculeJá é um sistema digital desenvolvido para melhorar o processo de solicitação e gestão de vagas em creches públicas municipais. O projeto surgiu a partir da identificação de um problema recorrente: a dificuldade das famílias em acompanhar o processo de solicitação de vagas, sem transparência sobre posição na fila, critérios de prioridade e andamento das solicitações.
 
-Além disso, a ausência de um sistema centralizado gera insegurança, sensação de injustiça e dificulta o trabalho dos servidores responsáveis pela gestão das vagas. O VagaFácil propõe centralizar essas informações em uma plataforma única, tornando o processo mais transparente, organizado e acessível.
+Além disso, a ausência de um sistema centralizado gera insegurança, sensação de injustiça e dificulta o trabalho dos servidores responsáveis pela gestão das vagas. O MatriculeJá propõe centralizar essas informações em uma plataforma única, tornando o processo mais transparente, organizado e acessível.
 
 ## Objetivo
 
@@ -33,7 +33,7 @@ Tornar o processo de solicitação e gestão de vagas em creches públicas mais 
 
 ## Impacto do projeto
 
-O VagaFácil busca contribuir para a redução de desigualdades no acesso às vagas em creches públicas, promovendo maior transparência no processo e auxiliando a gestão pública na tomada de decisões mais justas e organizadas. O projeto está alinhado aos seguintes Objetivos de Desenvolvimento Sustentável (ODS):
+O MatriculeJá busca contribuir para a redução de desigualdades no acesso às vagas em creches públicas, promovendo maior transparência no processo e auxiliando a gestão pública na tomada de decisões mais justas e organizadas. O projeto está alinhado aos seguintes Objetivos de Desenvolvimento Sustentável (ODS):
 
 - ODS 10 – Redução das Desigualdades  
 - ODS 11 – Cidades e Comunidades Sustentáveis  
