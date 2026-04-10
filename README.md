@@ -52,5 +52,5 @@ Projeto em desenvolvimento, atualmente na fase de protótipo.
 ## Autor
 
 Davi Bomfim Climaco - 24038233-2
-Danilo Mori Schuler
+Danilo Mori Schuler - 24391649-2
 Pedro Luiz Mendes
