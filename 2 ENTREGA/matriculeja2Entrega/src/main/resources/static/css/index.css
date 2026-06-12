@@ -1,0 +1,217 @@
+/* ── Hero ──────────────────────────────────────────────────── */
+
+.hero {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-xl);
+  padding: 40px 36px;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background: var(--blue-50);
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+}
+
+.hero-title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--blue-700);
+  line-height: 1.25;
+  margin-bottom: 10px;
+}
+
+.hero-sub {
+  font-size: 14px;
+  color: var(--gray-600);
+  line-height: 1.65;
+  max-width: 400px;
+  margin-bottom: 22px;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.hero-illus {
+  width: 160px;
+  height: 120px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-illus img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ── Steps ─────────────────────────────────────────────────── */
+
+.steps-row {
+  display: flex;
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 28px;
+  box-shadow: var(--shadow-sm);
+}
+
+.step-item {
+  flex: 1;
+  padding: 18px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-right: 1px solid var(--gray-200);
+  transition: background var(--duration-fast) var(--ease);
+}
+
+.step-item:last-child { border-right: none; }
+
+.step-item:hover { background: var(--gray-50); }
+
+.step-num {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--blue-500);
+  color: white;
+  font-weight: 800;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-label {
+  font-size: 12px;
+  color: var(--gray-600);
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* ── Features ──────────────────────────────────────────────── */
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.feat-card {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform var(--duration-base) var(--ease),
+    box-shadow var(--duration-base) var(--ease);
+}
+
+.feat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.feat-icon {
+  font-size: 26px;
+  color: var(--blue-500);
+  margin-bottom: 10px;
+}
+
+.feat-card h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--blue-700);
+  margin-bottom: 6px;
+}
+
+.feat-card p {
+  font-size: 13px;
+  color: var(--gray-600);
+  line-height: 1.55;
+}
+
+/* ── CTA ───────────────────────────────────────────────────── */
+
+.cta-box {
+  background: var(--blue-700);
+  border-radius: var(--radius-lg);
+  padding: 28px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.cta-box h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.cta-box p {
+  font-size: 13px;
+  color: #a5b4fc;
+  line-height: 1.5;
+}
+
+.cta-btn {
+  background: white;
+  color: var(--blue-600);
+  flex-shrink: 0;
+  font-size: 14px;
+}
+
+.cta-btn:hover {
+  background: var(--blue-50);
+  border-color: white;
+}
+
+/* ── Responsive ────────────────────────────────────────────── */
+
+@media (max-width: 700px) {
+  .hero          { flex-direction: column; padding: 24px 20px; }
+  .hero-illus    { display: none; }
+  .hero-title    { font-size: 22px; }
+  .hero-btns     { flex-direction: column; }
+  .hero-btns a   { width: 100%; text-align: center; justify-content: center; }
+  .features-grid { grid-template-columns: 1fr; }
+  .steps-row     { flex-wrap: wrap; }
+  .step-item     { min-width: 50%; border-bottom: 1px solid var(--gray-200); }
+  .cta-box       { flex-direction: column; padding: 24px 20px; }
+  .cta-btn       { width: 100%; justify-content: center; }
+}
