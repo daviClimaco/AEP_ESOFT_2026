@@ -1,121 +1,188 @@
 # MatriculeJá
 
----
+Sistema digital desenvolvido para tornar mais transparente, eficiente e organizado o processo de solicitação e gestão de vagas em creches públicas municipais.
 
-## Estrutura do repositório
-
-O repositório está organizado em duas etapas de entrega, conforme a evolução do desenvolvimento do sistema.
-
-### Entrega do 1º bimestre (Versão Beta)
-
-Nesta etapa foi desenvolvida uma versão funcional inicial do sistema, com foco na validação da lógica de negócio.
-
-Inclui:
-
-- Link do GitHub com o código-fonte da versão Beta
-- Código fonte em Java (versão CLI)
-- Relatórios (Word ou PDF):
-  - Perfis e Personas
-  - Relatório de Clean Code (análise de 3 funções)
-- Vídeo de apresentação (até 5 minutos):
-  - Link : https://youtu.be/YLwOizVmJuQ
-  - Demonstração da versão Beta
-  - Explicação do código-fonte
-  - Explicação dos perfis e personas
-  - Explicação do Clean Code
-
----
-### Entrega do 2º bimestre (Evolução do sistema)
-
-Nesta etapa o sistema evoluiu de uma versão CLI para uma aplicação web desenvolvida com HTML, CSS, Java e Spring Boot, utilizando arquitetura MVC e uma interface voltada para diferentes perfis de usuários do sistema.
-
-Inclui:
-
-* Video : https://youtu.be/FWMJ5EtGcmk
-* Link do GitHub com o código-fonte atualizado
-* Código-fonte da aplicação Web (Front-end e Back-end)
-* Interface completa do sistema para:
-
-  * Responsável
-  * Servidor
-  * Gestor
-* Aplicação dos conceitos de MVC, boas práticas de desenvolvimento e regras de negócio automatizadas
-
-### Documentação
-
-* PDF contendo os Wireframes e protótipos das telas
-* PDF contendo o Relatório de Métricas de Manutenção de Software (SonarQube)
-* PDF da Entrega Final consolidada, reunindo:
-
-  * Descrição do projeto
-  * Evolução do sistema
-  * Wireframes
-  * Métricas de qualidade
-  * Discussão dos resultados
-  * Considerações finais
-
-### Vídeo de apresentação (até 5 minutos)
-
-* Demonstração completa do sistema
-* Apresentação das telas e funcionalidades
-* Explicação da arquitetura MVC
-* Demonstração das regras de negócio implementadas
-* Apresentação das métricas obtidas no SonarQube
-* Explicação das melhorias realizadas durante a evolução do projeto
+O projeto foi desenvolvido durante a disciplina de Engenharia de Software (ESOFT) e está organizado em duas etapas de desenvolvimento, representando a evolução do sistema ao longo do semestre.
 
 ---
 
-## Status do projeto
+# Estrutura do Repositório
+
+O repositório está dividido em duas entregas principais:
+
+```text
+MatriculeJa
+│
+├── 1 ENTREGA
+│   ├── Código fonte da versão Beta (CLI)
+│   ├── Perfis e Personas
+│   ├── Relatório de Clean Code
+│   └── Vídeo de apresentação
+│
+├── 2 ENTREGA
+│   ├── matriculeja
+│   │   ├── Código fonte da aplicação Web
+│   │   ├── Front-end
+│   │   ├── Back-end
+│   │   └── Arquitetura MVC
+│   │
+│   ├── Wireframes
+│   ├── Relatório de Métricas (SonarQube)
+│   ├── Relatório Final
+│   └── Vídeo de apresentação
+│
+└── README.md
+```
+
+Cada pasta representa uma etapa do desenvolvimento e contém todos os artefatos produzidos durante o projeto.
+
+---
+
+# Entrega do 1º Bimestre — Versão Beta
+
+A primeira entrega teve como objetivo validar a proposta do sistema e as regras de negócio principais.
+
+Nesta etapa foi desenvolvida uma aplicação em Java utilizando interface via terminal (CLI).
+
+### Conteúdo
+
+* Código-fonte da versão Beta
+* Perfis e Personas
+* Relatório de Clean Code
+* Vídeo de apresentação
+
+### Vídeo
+
+https://youtu.be/YLwOizVmJuQ
+
+---
+
+# Entrega do 2º Bimestre — Evolução para Aplicação Web
+
+Na segunda etapa o sistema evoluiu para uma aplicação Web completa utilizando Java Spring Boot, HTML, CSS e JavaScript.
+
+A arquitetura foi reorganizada utilizando o padrão MVC (Model-View-Controller), permitindo melhor separação de responsabilidades e maior facilidade de manutenção.
+
+### Conteúdo
+
+* Código-fonte atualizado
+* Front-end Web
+* Back-end Spring Boot
+* Arquitetura MVC
+* Wireframes das telas
+* Relatório de Métricas de Manutenção de Software
+* Relatório Final Consolidado
+* Vídeo de apresentação
+
+### Vídeo
+
+https://youtu.be/FWMJ5EtGcmk
+
+---
+
+# Sobre o Projeto
+
+O MatriculeJá surgiu a partir da identificação de um problema recorrente enfrentado por muitas famílias: a falta de transparência no processo de solicitação de vagas em creches públicas.
+
+Em muitos municípios, os responsáveis não possuem informações claras sobre critérios de prioridade, posição na fila ou andamento da solicitação. Além disso, a ausência de um sistema centralizado dificulta o trabalho dos servidores responsáveis pela gestão das vagas.
+
+Para solucionar esse problema, o MatriculeJá centraliza essas informações em uma única plataforma, promovendo maior transparência, organização e eficiência.
+
+---
+
+# Objetivo
+
+Tornar o processo de solicitação e gestão de vagas em creches públicas mais transparente, eficiente e organizado, atendendo tanto a população quanto os servidores e gestores da educação municipal.
+
+---
+
+# Tecnologias Utilizadas
+
+### Back-end
+
+* Java 21
+* Spring Boot
+* Spring MVC
+
+### Front-end
+
+* HTML5
+* CSS3
+* JavaScript
+
+### Qualidade de Software
+
+* SonarQube
+
+---
+
+# Qualidade do Projeto
+
+A aplicação foi analisada utilizando SonarQube para avaliação de qualidade do código.
+
+Resultados obtidos:
+
+* Quality Gate: Passed
+* Maintainability: A
+* Reliability: B
+* Security: B
+* Duplicação de Código: 0,5%
+
+---
+
+# Público-Alvo
+
+* Responsáveis por crianças
+* Famílias em situação de vulnerabilidade social
+* Servidores públicos
+* Gestores da área de educação
+
+---
+
+# Funcionalidades
+
+### Responsável
+
+* Solicitar vaga em creche
+* Informar dados da criança e do responsável
+* Consultar situação da solicitação
+* Acompanhar o andamento do processo
+
+### Servidor
+
+* Analisar solicitações
+* Aprovar solicitações
+* Indeferir solicitações
+* Consultar histórico de movimentações
+
+### Gestor
+
+* Acompanhar indicadores gerais
+* Visualizar estatísticas das solicitações
+* Apoiar a tomada de decisão
+* 
+---
+
+# Impacto Social
+
+O MatriculeJá busca contribuir para a redução das desigualdades no acesso às vagas em creches públicas, promovendo maior transparência e eficiência na gestão pública.
+
+O projeto está alinhado aos Objetivos de Desenvolvimento Sustentável (ODS):
+
+* ODS 10 – Redução das Desigualdades
+* ODS 11 – Cidades e Comunidades Sustentáveis
+* ODS 16 – Paz, Justiça e Instituições Eficazes
+
+---
+
+# Status do Projeto
 
 Projeto acadêmico concluído para a disciplina de Engenharia de Software (ESOFT), contemplando a evolução de uma versão Beta para uma aplicação Web estruturada com arquitetura MVC, interface gráfica e análise de métricas de qualidade de software.
 
 ---
 
-## Sobre o projeto
+# Autores
 
-O MatriculeJá é um sistema digital desenvolvido para tornar mais transparente, eficiente e organizado o processo de solicitação e gestão de vagas em creches públicas municipais.
-
-O projeto surgiu a partir da identificação de um problema recorrente enfrentado por muitas famílias: a falta de informações claras sobre a situação da solicitação, critérios de prioridade, posição na fila e andamento do processo de matrícula.
-
-Para solucionar esse problema, o MatriculeJá centraliza todas as informações em uma única plataforma, permitindo que responsáveis acompanhem suas solicitações, servidores realizem a análise dos pedidos e gestores tenham uma visão mais ampla para apoiar a tomada de decisões.
-
-Durante o desenvolvimento, o sistema evoluiu de uma versão inicial em linha de comando para uma aplicação Web desenvolvida com HTML, CSS, Java e Spring Boot, utilizando arquitetura MVC e aplicando conceitos de Engenharia de Software, Qualidade de Software, IHC e Boas Práticas de Desenvolvimento.
-
-## Objetivo
-
-Tornar o processo de solicitação e gestão de vagas em creches públicas mais transparente, eficiente e organizado, atendendo tanto a população quanto os servidores e gestores da educação municipal.
-
-## Público-alvo
-
-- Responsáveis por crianças, especialmente famílias em situação de vulnerabilidade social
-- Servidores públicos responsáveis pelo atendimento e gestão das solicitações
-- Gestores da área de educação municipal
-
-## Funcionalidades previstas
-
-- Cadastro de solicitação de vaga em creche
-- Consulta e acompanhamento do status da solicitação
-- Visualização de posição na fila
-- Aplicação de critérios de prioridade
-- Organização e gestão das solicitações pelos servidores
-- Apoio à tomada de decisão por parte dos gestores
-
-## Tecnologias utilizadas
-
-- HTML
-- CSS
-- Java com Spring Boot
-
-## Impacto do projeto
-
-O MatriculeJá busca contribuir para a redução de desigualdades no acesso às vagas em creches públicas, promovendo maior transparência no processo e auxiliando a gestão pública na tomada de decisões mais justas e organizadas. O projeto está alinhado aos seguintes Objetivos de Desenvolvimento Sustentável (ODS):
-
-- ODS 10 – Redução das Desigualdades
-- ODS 11 – Cidades e Comunidades Sustentáveis
-- ODS 16 – Paz, Justiça e Instituições Eficazes
-
-## Autores
-
-Davi Bomfim Climaco
-Danilo Mori Schuler
-Pedro Luiz Mendes
+* Davi Bomfim Climaco
+* Danilo Mori Schuler
+* Pedro Luiz Mendes
