@@ -31,6 +31,7 @@ Nesta etapa o sistema evoluiu de uma versão CLI para uma aplicação web desenv
 
 Inclui:
 
+* Video : https://youtu.be/FWMJ5EtGcmk
 * Link do GitHub com o código-fonte atualizado
 * Código-fonte da aplicação Web (Front-end e Back-end)
 * Interface completa do sistema para:
